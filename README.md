@@ -21,7 +21,6 @@ This project demonstrates socket programming and concurrency in C. Unlike iterat
 
 ### 1. Compile the Server
 We must link the pthread library using `-pthread`.
-```bash
 gcc server.c -o server -pthread
 2. Compile the Client
 Bash
