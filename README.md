@@ -22,18 +22,18 @@ This project demonstrates socket programming and concurrency in C. Unlike iterat
 ### 1. Compile the Server
 We must link the pthread library using `-pthread`.
 gcc server.c -o server -pthread
-2. Compile the Client
-Bash
 
+### 2. Compile the Client
 gcc client.c -o client
-3. Run the Server
+
+### 3. Run the Server
 Open a terminal window and run the server. It will listen for incoming connections.
-
 ./server
-4. Run the Client
-Open a new terminal window (keep the server running in the first one) and run the client:
 
+### 4. Run the Client
+Open a new terminal window (keep the server running in the first one) and run the client:
 ./client
+
 To test concurrency, you can open multiple terminal windows and run ./client in each one simultaneously.
 
 Usage Example & Expected Output
